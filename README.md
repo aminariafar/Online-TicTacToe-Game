@@ -13,10 +13,8 @@ The repo contains two main scripts: `server.py` (game server) and `client.py` (g
 ```
 server.py      # Matchmaking server & game logic (threaded, socket-based)
 client.py      # Tkinter GUI client that connects to the server
-images/        # (not included) optional assets the GUI may use
+images/        # assets the GUI uses
 ```
-
-> ⚠️ Note: you said the `images/` folder is not being sent. This README assumes the client runs without external images; if your client expects images in `images/`, put them next to `client.py` or adapt the code accordingly.
 
 ## 🔧 Requirements
 - Python 3.7+
